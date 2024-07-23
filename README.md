@@ -4,11 +4,11 @@
 
 This project models a secure communication protocol between a client and a server. The communication protocol uses a hybrid encryption scheme: messages are encrypted using the AES (Advanced Encryption Standard) algorithm, and the AES key is encrypted using the RSA (Rivest-Shamir-Adleman) algorithm. Both AES and RSA implementations are custom and handcrafted.
 
+
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/76961330-692f-4bc0-a25d-ceb9990c01162" width="700" />
+ ![image](https://github.com/user-attachments/assets/87085d05-1e9c-4421-a87f-4fca6f05e73c)
 </div>
 
- 
 
 
 **Disclaimer:** This project is not meant for commercial or practical use. It is intended for educational purposes only. Below are some reasons why this implementation is not suitable for production environments:
