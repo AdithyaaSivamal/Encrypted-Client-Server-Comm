@@ -6,8 +6,8 @@ import secrets
 from ctypes import create_string_buffer, c_char_p
 
 # Load AES and RSA DLLs
-aes_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__), 'aes.dll'), winmode=0)
-rsa_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__), 'rsa.dll'), winmode=0)
+aes_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__),'./Encryption_Algs/AES','aes.dll'), winmode=0)
+rsa_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__), './Encryption_Algs/RSA','rsa.dll'), winmode=0)
 
 # Define AES encryption function
 aes_lib.encrypt.argtypes = [ctypes.POINTER(ctypes.c_ubyte), ctypes.POINTER(ctypes.c_ubyte), ctypes.POINTER(ctypes.c_ubyte)]
