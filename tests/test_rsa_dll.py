@@ -26,7 +26,7 @@ def call_generateRSAKeys(n, e, d, timeout):
     return result[0] if result else False
 
 # Load the RSA DLL
-aes_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__),'../Encryption_Algs/RSA' ,'rsa.dll'), winmode=0)
+rsa_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__),'../Encryption_Algs/RSA' ,'rsa.dll'), winmode=0)
 
 # Define RSA function prototypes
 rsa.generateRSAKeys.argtypes = [c_char_p, c_char_p, c_char_p]
