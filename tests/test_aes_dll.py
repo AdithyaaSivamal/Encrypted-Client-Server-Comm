@@ -2,7 +2,7 @@ import ctypes
 import os
 
 # Load the DLL file
-aes_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__), 'aes.dll'), winmode=0)
+aes_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__),'../Encryption_Algs/AES' ,'aes.dll'), winmode=0)
 
 # Define the AES encryption and decryption functions
 aes_lib.encrypt.argtypes = [ctypes.POINTER(ctypes.c_ubyte), ctypes.POINTER(ctypes.c_ubyte), ctypes.POINTER(ctypes.c_ubyte)]
