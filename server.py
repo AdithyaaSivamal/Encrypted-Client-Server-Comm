@@ -8,8 +8,8 @@ from ctypes import create_string_buffer, c_char_p
 from datetime import datetime
 
 # Load AES and RSA DLLs
-aes_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__), 'aes.dll'), winmode=0)
-rsa_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__), 'rsa.dll'), winmode=0)
+aes_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__),'./Encryption_Algs/AES','aes.dll'), winmode=0)
+rsa_lib = ctypes.CDLL(os.path.join(os.path.dirname(__file__), './Encryption_Algs/RSA','rsa.dll'), winmode=0)
 
 # Define AES decryption function with appropriate argument types
 aes_lib.decrypt.argtypes = [ctypes.POINTER(ctypes.c_ubyte), ctypes.POINTER(ctypes.c_ubyte), ctypes.POINTER(ctypes.c_ubyte)]
