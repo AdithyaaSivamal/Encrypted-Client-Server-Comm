@@ -61,6 +61,7 @@ This will generate `rsa.dll` in the `RSA` directory and `aes.dll` in the `AES` d
     ```sh
     python server.py
     ```
+![image](https://github.com/user-attachments/assets/6b995e53-d614-4483-9026-0c4a09f7ff3c)
 
 ### Client
 
@@ -68,6 +69,9 @@ This will generate `rsa.dll` in the `RSA` directory and `aes.dll` in the `AES` d
     ```sh
     python client.py
     ```
+![image](https://github.com/user-attachments/assets/810c9bf2-59c4-42db-9219-87e28a0b40b4)
+
+![image](https://github.com/user-attachments/assets/010c22ec-87c9-4af9-bf56-6088bd41f4bb)
 
 ## Implementation Details
 
