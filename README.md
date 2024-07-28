@@ -7,7 +7,7 @@ This project models a secure communication protocol between a client and a serve
 
 
 
-<img src="https://github.com/user-attachments/assets/87085d05-1e9c-4421-a87f-4fca6f05e73c" width="700" style="text-align:center"/>
+<img src="!https://github.com/user-attachments/assets/f7b8653f-b00f-46c3-a287-1fea8dee6dfc" width="700" style="text-align:center"/>
 
 
 **Disclaimer:** This project is not meant for commercial or practical use. It is intended for educational purposes only. Below are some reasons why this implementation is not suitable for production environments:
